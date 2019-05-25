@@ -6,7 +6,8 @@ public class Main {
         staticFiles.location("/public");
         post("/urlinput", RequestHandler::inputHandler);
         get("/download/:id/:name", RequestHandler::downloadHandler);
-        System.out.println("server is set.");
         init();
+        System.out.println("server is set.");
+
     }
 }
