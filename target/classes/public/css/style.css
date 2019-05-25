@@ -1,0 +1,13 @@
+#downloader{
+    text-align: center;
+    width: 600px;
+    margin-left: calc(50% - 300px);
+}
+
+#urlinput {
+    width: 500px;
+}
+#downloader h4,h5{
+    text-align: left;
+    margin-left: 20px;
+}
